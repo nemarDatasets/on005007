@@ -1,0 +1,11 @@
+{
+  "TaskName": "namingtask",
+  "SamplingFrequency": 1000,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "Manufacturer": "n/a",
+  "ManufacturersModelName": "a/a",
+  "TaskDescription": "namingtask",
+  "Instructions": "n/a",
+  "iEEGReference": "n/a"
+}
