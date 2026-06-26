@@ -1,19 +1,29 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Auditory naming task with questions that begin or end with a wh-interrogative",
+  "description": "This dataset comprises neuroimaging recordings from an auditory naming task in which participants respond to questions beginning or ending with wh-interrogatives. The study investigates language processing and naming responses during structured auditory stimulation, with potential applications in understanding linguistic comprehension and production mechanisms.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Yu Kitazawa": {},
     "Eishi Asano": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005007.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "auditory naming task"
     },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "wh-interrogatives"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005007",
       "identifier_type": "URL",
@@ -23,6 +33,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005007",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005007.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -31,45 +46,19 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "8.6 GB (41 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises intracranial electrocorticography (ECoG) recordings from patients performing an auditory naming task with questions that begin or end with wh-interrogatives. The study investigates neural correlates of language processing, specifically examining how question structure modulates brain activity during naming tasks.",
-  "keywords": [
-    {
-      "term": "electrocorticography"
-    },
-    {
-      "term": "ECoG"
-    },
-    {
-      "term": "language processing"
-    },
-    {
-      "term": "auditory naming"
-    },
-    {
-      "term": "wh-questions"
-    },
-    {
-      "term": "intracranial recording"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "brain mapping"
-    }
-  ],
-  "source_hash": "9b0b80f6efb3c6d9dc1c5383158c690d635e2400e96ff61e9e28617d5c396f21"
+  "source_hash": "442c8f6d428183dd3b11955698417831d4229a7b5575db2ce0e413382d39fe9b"
 }
