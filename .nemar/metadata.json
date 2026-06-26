@@ -1,33 +1,75 @@
 {
   "version": "2.0",
-  "dataset_id": "on005007",
-  "source": "openneuro",
-  "source_id": "ds005007",
+  "pipeline_stage": "enriched",
   "title": "Auditory naming task with questions that begin or end with a wh-interrogative",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yu Kitazawa": {},
     "Eishi Asano": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005007.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005007",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005007",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
       "funder_name": "N/A"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises intracranial electrocorticography (ECoG) recordings from patients performing an auditory naming task with questions that begin or end with wh-interrogatives. The study investigates neural correlates of language processing, specifically examining how question structure modulates brain activity during naming tasks.",
+  "keywords": [
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "auditory naming"
+    },
+    {
+      "term": "wh-questions"
+    },
+    {
+      "term": "intracranial recording"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "brain mapping"
+    }
+  ],
+  "source_hash": "9b0b80f6efb3c6d9dc1c5383158c690d635e2400e96ff61e9e28617d5c396f21"
 }
