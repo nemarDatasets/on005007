@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory naming task with questions that begin or end with a wh-interrogative",
-  "description": "This dataset comprises neuroimaging recordings from an auditory naming task in which participants respond to questions beginning or ending with wh-interrogatives. The study investigates language processing and naming responses during structured auditory stimulation, with potential applications in understanding linguistic comprehension and production mechanisms.",
+  "description": "This dataset contains iEEG recordings from patients performing an auditory naming task involving questions that begin or end with a wh-interrogative. The study investigates neural responses related to language processing and question comprehension. Data were collected under IRB approval from Wayne State University and are mirrored from OpenNeuro to NEMAR.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,16 +11,21 @@
   },
   "keywords": [
     {
+      "term": "iEEG"
+    },
+    {
       "term": "auditory naming task"
     },
     {
       "term": "language processing"
     },
     {
-      "term": "wh-interrogatives"
+      "term": "wh-interrogative"
     },
     {
-      "term": "neuroimaging"
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     }
   ],
   "related_identifiers": [
@@ -30,14 +35,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005007",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005007.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005007",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
