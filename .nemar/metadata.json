@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory naming task with questions that begin or end with a wh-interrogative",
-  "description": "This dataset contains iEEG recordings from patients performing an auditory naming task involving questions that begin or end with a wh-interrogative. The study investigates neural responses related to language processing and question comprehension. Data were collected under IRB approval from Wayne State University and are mirrored from OpenNeuro to NEMAR.",
+  "description": "Intracranial EEG (iEEG) recordings acquired during an auditory naming task in which participants heard questions that either began or ended with a wh-interrogative word. The dataset is organized in BIDS format and supports investigation of the neural dynamics underlying language processing and naming. It is mirrored on NEMAR from OpenNeuro.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,18 +14,16 @@
       "term": "iEEG"
     },
     {
-      "term": "auditory naming task"
+      "term": "electrocorticography"
     },
     {
-      "term": "language processing"
+      "term": "auditory naming"
     },
     {
       "term": "wh-interrogative"
     },
     {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+      "term": "language processing"
     }
   ],
   "related_identifiers": [
@@ -56,7 +54,7 @@
     "ieeg"
   ],
   "sizes": [
-    "8.6 GB (41 files)"
+    "7.99 GB (41 files)"
   ],
   "formats": [
     ".edf",
