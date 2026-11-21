@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory naming task with questions that begin or end with a wh-interrogative",
-  "description": "Intracranial EEG (iEEG) recordings acquired during an auditory naming task in which participants heard questions that either began or ended with a wh-interrogative word. The dataset is organized in BIDS format and supports investigation of the neural dynamics underlying language processing and naming. It is mirrored on NEMAR from OpenNeuro.",
+  "description": "This intracranial EEG (iEEG) dataset contains recordings from an auditory naming task in which participants answered spoken questions that began or ended with a wh-interrogative. It is a BIDS-formatted mirror of OpenNeuro ds005007, with 42 recordings and electrode locations in fsaverage space. The data support research on the neural dynamics of language processing and naming.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,10 +20,15 @@
       "term": "auditory naming"
     },
     {
+      "term": "language"
+    },
+    {
       "term": "wh-interrogative"
     },
     {
-      "term": "language processing"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
@@ -59,9 +64,11 @@
   "formats": [
     ".edf",
     ".json",
+    ".jsonl",
     ".md",
     ".tsv",
     ".yml"
   ],
-  "source_hash": "442c8f6d428183dd3b11955698417831d4229a7b5575db2ce0e413382d39fe9b"
+  "methods_description": "Recordings were made with intracranial electrodes (subdural contacts) and stored as EDF files while participants performed an auditory naming task. Electrode coordinates are given in fsaverage (MNI305) space in millimeters. Channel lists and sampling frequencies in the BIDS metadata were harmonized with the data-file headers.",
+  "source_hash": "a97b38fca26ea7caa942696c146aa4b7ebc2b917a7773358d4afc3f4fd3910b3"
 }
