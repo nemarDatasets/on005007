@@ -22,7 +22,7 @@ Rows were matched to header channels BY NAME, never by position (exact; then cas
 
 Applied by position, the former rows would have given wrong labels to 4337 channels in 42 files (rows missing, extra or out of order before that position).
 
-electrodes.tsv is unchanged: it names the contacts (e.g. `A1`), while channel names follow the recorder (e.g. `A1-AV`); to attach positions in MNE, map channel names to contact names first, e.g. `raw.rename_channels(lambda n: re.sub(r'-[A-Za-z0-9]+$', '', n))`.
+electrodes.tsv is unchanged and keeps the contact names (e.g. `A1`), while channels.tsv follows the recording headers (e.g. `POL A1`, `EEG M2-Ref`). To pair a channel with its contact, drop a leading `POL ` or `EEG ` and a trailing reference suffix (`-Ref`, `-AV`).
 
 ## Sampling frequency follows the data headers (18 Oct 2026)
 
